@@ -1,0 +1,5 @@
+*.o
+welch-fftw
+welch-fftw-openmp
+welch-cufft
+welch-cufft-openmp
