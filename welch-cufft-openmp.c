@@ -1,5 +1,5 @@
 /**
- * File: welch-test.c
+ * File: welch-cufft-openmp.c
  * Description: Test the welch() function with cufft and openmp library.
  *
  * Author: Xiaojun Wu <xiaojun.wu@nyu.edu>
@@ -13,7 +13,7 @@
 #include "welch.h"
 
 #define PI 3.1415926535897932384626
-#define N 256
+#define N 16384
 
 int main(int argc, char *argv[])
 {
